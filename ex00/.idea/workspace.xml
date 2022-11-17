@@ -20,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,7 +62,7 @@
     "project.structure.last.edited": "라이브러리",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2091954",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Code With Me",
     "spring.configuration.checksum": "3a971b014680a2dae80eebaea07c5e28"
   },
   "keyToStringList": {
@@ -83,7 +84,7 @@
       <recent name="C:\study_\Spring\spring\ex00" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ex00의 전부">
+  <component name="RunManager" selected="JUnit.MapperTest.getTimeTest">
     <configuration name="DataSourceTest.connectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex00" />
       <extension name="coverage">
@@ -95,22 +96,6 @@
       <option name="PACKAGE_NAME" value="com.example.persistence" />
       <option name="MAIN_CLASS_NAME" value="com.example.persistence.DataSourceTest" />
       <option name="METHOD_NAME" value="connectionTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HotelTest.testExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex00" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.sample" />
-      <option name="MAIN_CLASS_NAME" value="com.example.sample.HotelTest" />
-      <option name="METHOD_NAME" value="testExist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,17 +117,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantTest.testExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapperTest.getTimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex00" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.sample.*" />
+          <option name="PATTERN" value="com.example.persistence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.sample" />
-      <option name="MAIN_CLASS_NAME" value="com.example.sample.RestaurantTest" />
-      <option name="METHOD_NAME" value="testExist" />
+      <option name="PACKAGE_NAME" value="com.example.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.example.persistence.MapperTest" />
+      <option name="METHOD_NAME" value="getTimeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.connectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex00" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.example.persistence.MyBatisTest" />
+      <option name="METHOD_NAME" value="connectionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -252,19 +253,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.DataSourceTest.connectionTest" />
+      <item itemvalue="JUnit.MapperTest.getTimeTest" />
+      <item itemvalue="JUnit.MyBatisTest.connectionTest" />
       <item itemvalue="JUnit.ex00의 전부" />
       <item itemvalue="JUnit.JDBCTest.connectionTest" />
-      <item itemvalue="JUnit.RestaurantTest.testExist" />
-      <item itemvalue="JUnit.HotelTest.testExist" />
       <item itemvalue="Tomcat 서버.Tomcat 9.0.62" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ex00의 전부" />
+        <item itemvalue="JUnit.MapperTest.getTimeTest" />
         <item itemvalue="JUnit.DataSourceTest.connectionTest" />
+        <item itemvalue="JUnit.MyBatisTest.connectionTest" />
+        <item itemvalue="JUnit.ex00의 전부" />
         <item itemvalue="JUnit.JDBCTest.connectionTest" />
-        <item itemvalue="JUnit.HotelTest.testExist" />
-        <item itemvalue="JUnit.RestaurantTest.testExist" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +278,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668589441084</updated>
       <workItem from="1668589442731" duration="20935000" />
-      <workItem from="1668656724958" duration="4830000" />
+      <workItem from="1668656724958" duration="13829000" />
     </task>
     <servers />
   </component>
@@ -294,21 +295,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/persistence/DataSourceTest.java</url>
-          <line>26</line>
-          <properties class="com.example.persistence.DataSourceTest" method="connectionTest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
