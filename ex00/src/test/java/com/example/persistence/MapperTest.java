@@ -2,6 +2,7 @@ package com.example.persistence;
 
 import static org.junit.Assert.assertNotNull;
 
+import com.example.mapper.BoardMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,9 +25,22 @@ public class MapperTest {
     @Setter(onMethod_ = @Autowired)
     private TimeMapper mapper1;
 
+    @Setter(onMethod_ = @Autowired )
+    private BoardMapper mapper2;
+
     // JUnit에서 테스트 대상임을 표시
     @Test
     public void getTimeTest() {
         log.info("Now: " + mapper1.getTime());
+    }
+
+    @Test
+    public void getTime2Test() {
+        log.info("Now: " + mapper1.getTime2());
+    }
+
+    @Test
+    public void getMaxBoardNumTest() {
+        log.info("apple의 최근 게시글 번호: " + mapper2.getMaxBoardNum("apple"));
     }
 }

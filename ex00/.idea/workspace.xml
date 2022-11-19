@@ -19,9 +19,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -59,10 +60,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "라이브러리",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2091954",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Code With Me",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "3a971b014680a2dae80eebaea07c5e28"
   },
   "keyToStringList": {
@@ -101,17 +102,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCTest.connectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelTest.testExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex00" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.persistence.*" />
+          <option name="PATTERN" value="com.example.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.persistence" />
-      <option name="MAIN_CLASS_NAME" value="com.example.persistence.JDBCTest" />
-      <option name="METHOD_NAME" value="connectionTest" />
+      <option name="PACKAGE_NAME" value="com.example.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.example.sample.HotelTest" />
+      <option name="METHOD_NAME" value="testExist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -252,20 +253,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.HotelTest.testExist" />
       <item itemvalue="JUnit.DataSourceTest.connectionTest" />
       <item itemvalue="JUnit.MapperTest.getTimeTest" />
       <item itemvalue="JUnit.MyBatisTest.connectionTest" />
       <item itemvalue="JUnit.ex00의 전부" />
-      <item itemvalue="JUnit.JDBCTest.connectionTest" />
       <item itemvalue="Tomcat 서버.Tomcat 9.0.62" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MapperTest.getTimeTest" />
-        <item itemvalue="JUnit.DataSourceTest.connectionTest" />
+        <item itemvalue="JUnit.HotelTest.testExist" />
         <item itemvalue="JUnit.MyBatisTest.connectionTest" />
+        <item itemvalue="JUnit.DataSourceTest.connectionTest" />
         <item itemvalue="JUnit.ex00의 전부" />
-        <item itemvalue="JUnit.JDBCTest.connectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +279,9 @@
       <option name="presentableId" value="Default" />
       <updated>1668589441084</updated>
       <workItem from="1668589442731" duration="20935000" />
-      <workItem from="1668656724958" duration="13829000" />
+      <workItem from="1668656724958" duration="14690000" />
+      <workItem from="1668729336461" duration="3418000" />
+      <workItem from="1668817581765" duration="4496000" />
     </task>
     <servers />
   </component>
