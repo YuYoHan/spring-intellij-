@@ -54,7 +54,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/study_/apache-tomcat-9.0.62/lib/tomcat-dbcp.jar",
+    "last_opened_file_path": "C:/study_/Spring/spring/ex00",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,6 +74,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\study_\Spring\spring\ex00\src\main\resources" />
       <recent name="C:\study_\Spring\spring\ex00\src\test\java\com\example\sample" />
       <recent name="C:\study_\Spring\spring\ex00\lib" />
       <recent name="C:\study_\Spring\spring\ex00\src\main\java\com\example\sample" />
@@ -281,7 +282,10 @@
       <workItem from="1668589442731" duration="20935000" />
       <workItem from="1668656724958" duration="14690000" />
       <workItem from="1668729336461" duration="3418000" />
-      <workItem from="1668817581765" duration="10178000" />
+      <workItem from="1668817581765" duration="11542000" />
+      <workItem from="1668904039331" duration="1959000" />
+      <workItem from="1669165437139" duration="2634000" />
+      <workItem from="1669686455391" duration="2202000" />
     </task>
     <servers />
   </component>
