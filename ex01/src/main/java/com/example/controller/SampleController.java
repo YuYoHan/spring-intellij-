@@ -6,6 +6,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
+
 @Component
 @RequestMapping("/sample/*")
 @Log4j
@@ -56,5 +58,19 @@ public class SampleController {
         model.addAttribute("name", name);
         model.addAttribute("age", age);
         return "sample/ex02";
+    }
+
+    @GetMapping("ex03")
+    public void ex03(@RequestParam("data")String[] datas, Model model) {
+        model.addAttribute("datas", datas);
+    }
+    @GetMapping("ex04")
+    public void  ex04(@RequestParam("data")ArrayList<Integer> datas, Model model) {
+        int sum = 0;
+        for (int data : datas) {
+            sum += data;
+        }
+        model.addAttribute("datas", datas);
+        model.addAttribute("sum", sum);
     }
 }
