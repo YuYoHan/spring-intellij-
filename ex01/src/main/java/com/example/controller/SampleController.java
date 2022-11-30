@@ -4,10 +4,7 @@ import com.example.domain.SampleDTO;
 import lombok.extern.log4j.Log4j;
 import org.springframework.stereotype.Component;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 
 @Component
 @RequestMapping("/sample/*")
@@ -52,5 +49,12 @@ public class SampleController {
         model.addAttribute("dto", dto);
         // WEB-INF/views/sample/ex01.jsp
         return "/sample/ex01";
+    }
+    // 파라미터 명과 담을 변수명이 다른 경우 수집 방법
+    @GetMapping("ex02")
+    public String ex02(@RequestParam("data1") String name, @RequestParam("data2") int age, Model model) {
+        model.addAttribute("name", name);
+        model.addAttribute("age", age);
+        return "sample/ex02";
     }
 }
