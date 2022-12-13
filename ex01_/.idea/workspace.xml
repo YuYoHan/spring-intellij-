@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ex01:war exploded" />
+      <artifact name="ex01_:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="451974e7-4cd4-4ad6-86d0-79d86264acd1" name="변경" comment="">
+    <list default="true" id="ed6f8f02-80b5-4058-996e-b92af94ffc52" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/../ex00/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex00/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex00/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex00/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex00/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex00/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01/src/main/java/com/example/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01/src/main/java/com/example/controller/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex01/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +49,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="useMavenOutput" value="false" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
-  <component name="ProjectId" id="2ICXW91ElmbZEB7yuYFLzQMkeLB" />
+  <component name="ProjectId" id="2IqiQX5TQLUwMqSMc119RZphDb7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -65,47 +61,42 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/study_/Spring/spring/book_study",
+    "last_opened_file_path": "C:/study_/Spring/spring/ex01_/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "문제",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2091954",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs",
-    "spring.configuration.checksum": "8d995b9c4146270ddd19a8fc9d12804e"
+    "project.structure.side.proportion": "0.2091954"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\study_\Spring\spring\ex01\src\main\webapp\WEB-INF\classes" />
-      <recent name="C:\study_\Spring\spring\ex01\src\main\resources" />
+      <recent name="C:\study_\Spring\spring\ex01_\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\study_\Spring\spring\ex01\src\main\webapp\WEB-INF" />
-      <recent name="C:\study_\Spring\spring\ex01\src\main\webapp" />
-      <recent name="C:\study_\Spring\spring\ex01\src\main\webapp\WEB-INF\spring" />
-      <recent name="C:\study_\Spring\spring\ex01\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\study_\Spring\spring\ex01\src\main\webapp\WEB-INF\spring\appServlet" />
+      <recent name="C:\study_\Spring\spring\ex01_\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\study_\Spring\spring\ex01_\src\main\webapp\WEB-INF\spring" />
+      <recent name="C:\study_\Spring\spring\ex01_\src\main\webapp\WEB-INF\spring\appServlet" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.70" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="ex01:war exploded">
+        <artifact name="ex01_:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="a51a4469-3039-4e50-99ad-6c5beb36db80" />
-        <option name="HTTP_PORT" value="10001" />
+        <option name="BASE_DIRECTORY_NAME" value="797dc273-9cf0-4c5c-b058-bc78800d774c" />
+        <option name="HTTP_PORT" value="10000" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -113,7 +104,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53445" />
+        <option name="DEBUG_PORT" value="55259" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -178,31 +169,20 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ex01:war exploded" />
+          <artifact name="ex01_:war exploded" />
         </option>
       </method>
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
-  <component name="SpringGeneralSettings">
-    <option name="allowAutoConfigurationMode" value="true" />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="451974e7-4cd4-4ad6-86d0-79d86264acd1" name="변경" comment="" />
-      <created>1669686567978</created>
+      <changelist id="ed6f8f02-80b5-4058-996e-b92af94ffc52" name="변경" comment="" />
+      <created>1670915498792</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669686567978</updated>
-      <workItem from="1669686569155" duration="16310000" />
-      <workItem from="1669861964234" duration="7382000" />
-      <workItem from="1670395160069" duration="2880000" />
-      <workItem from="1670768183981" duration="560000" />
-      <workItem from="1670771287815" duration="4376000" />
-      <workItem from="1670805286194" duration="318000" />
-      <workItem from="1670805650168" duration="1005000" />
-      <workItem from="1670836428131" duration="4312000" />
-      <workItem from="1670915481927" duration="3069000" />
+      <updated>1670915498792</updated>
+      <workItem from="1670915500686" duration="7324000" />
     </task>
     <servers />
   </component>
@@ -219,9 +199,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

@@ -25,6 +25,7 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
 
+    <!-- servlet 매핑-->
     <servlet-mapping>
         <servlet-name>appServlet</servlet-name>
         <url-pattern>/</url-pattern>
