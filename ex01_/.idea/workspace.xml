@@ -9,19 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed6f8f02-80b5-4058-996e-b92af94ffc52" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../ex00/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex00/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex00/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex00/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex00/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex00/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/src/main/java/com/example/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01/src/main/java/com/example/controller/SampleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ed6f8f02-80b5-4058-996e-b92af94ffc52" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +59,8 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2091954"
+    "project.structure.side.proportion": "0.2091954",
+    "spring.configuration.checksum": "69530d9ab1a0aba4f332ccfba664bef8"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -182,7 +171,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670915498792</updated>
-      <workItem from="1670915500686" duration="7324000" />
+      <workItem from="1670915500686" duration="8150000" />
+      <workItem from="1670983271199" duration="4449000" />
     </task>
     <servers />
   </component>

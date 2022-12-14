@@ -13,5 +13,12 @@
 </head>
 <body>
     <h2 style="background-color: black; color: yellow;">오류발생</h2>
+    <a href="#">백신 프로그램 다운받기</a>
+    <ul style="color: red;">
+        <c:forEach var="stack" items="${exception.stackTrace}">
+            <li>${stack}</li>
+        </c:forEach>
+    </ul>
+
 </body>
 </html>

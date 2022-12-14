@@ -1,9 +1,12 @@
 package com.example.exception;
 
 import lombok.extern.log4j.Log4j;
+import org.springframework.http.HttpStatus;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.servlet.NoHandlerFoundException;
 
 @ControllerAdvice
 @Log4j
@@ -15,4 +18,13 @@ public class CommonExceptionAdvice {
         model.addAttribute("exception", e);
         return "error_page";
     }
+
+//    @ExceptionHandler(NumberFormatException.class)
+
+    @ExceptionHandler(NoHandlerFoundException.class)
+    @ResponseStatus(HttpStatus.FOUND)
+    public String handle404(NoHandlerFoundException nhfe) {
+        return "error_404";
+    }
+
 }
