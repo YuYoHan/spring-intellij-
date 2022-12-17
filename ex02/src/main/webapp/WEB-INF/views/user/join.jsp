@@ -17,32 +17,35 @@
     <a class="logo" href="/">Spring <span>Board</span></a>
     <nav id="nav">
         <ul>
-            <c:choose>
-                <c:when test="${loginUser == null}">
-                    <li class="current"><a href="/">Home</a></li>
-                    <li><a href="/user/join">Join</a></li>
-                    <li><a href="/user/login">Login</a></li>
-                </c:when>
-                <c:otherwise>
-                    <li>${loginUser}님 환영합니다!</li>
-                    <li class="current"><a href="/">Home</a></li>
-                    <li><a href="/board/list">Board</a></li>
-                    <li><a href="/user/logout">Logout</a></li>
-                </c:otherwise>
-            </c:choose>
+            <li class="current"><a href="/">Home</a></li>
+            <li><a href="/user/join">Join</a></li>
+            <li><a href="/user/login">Login</a></li>
         </ul>
     </nav>
 </header>
 
-<!-- Banner -->
-<div id="banner">
+<div id="main">
     <div class="wrapper style1 special">
         <div class="inner">
-            <h1 class="heading alt">스프링 게시판</h1>
-            <p>스프링 최종 예제</p>
-            <div class="image fit special">
-                <img src="https://images.unsplash.com/photo-1657497850516-de7b59ac243b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80" alt="" />
-            </div>
+            <h2 class="heading alt">회원가입</h2>
+            <br />
+            <form class="joinForm" name="joinForm" id="joinForm" action="" method="post">
+                <div class="col-12">
+                    <h3>아이디</h3>
+                    <input type="text" name="userId" />
+                </div>
+                <div class="col-12">
+                    <h3>비밀번호</h3>
+                    <input type="password" name="userPw"/>
+                </div>
+                <div class="col-12">
+                    <h3>이름</h3>
+                    <input type="text" name="userName"/>
+                </div>
+                <div class="col-12">
+                    <input type="submit"  value="회원가입" class="primary"/>
+                </div>
+            </form>
         </div>
     </div>
 </div>
