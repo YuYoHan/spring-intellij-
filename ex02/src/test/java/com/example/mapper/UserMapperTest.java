@@ -16,14 +16,21 @@ public class UserMapperTest {
     @Setter(onMethod_ = @Autowired)
     private UserMapper mapper;
 
-    @Test
-    public void joinTest() {
-        UserDTO user = new UserDTO();
-        user.setUserId("testId");
-        user.setUserPw("testPw");
-        user.setUserName("testName");
+//    @Test
+//    public void joinTest() {
+//        UserDTO user = new UserDTO();
+//        user.setUserId("testId");
+//        user.setUserPw("testPw");
+//        user.setUserName("testName");
+//
+//        boolean result = 1 == mapper.join(user);
+//        log.info("Result : " + result);
+//    }
 
-        boolean result = 1 == mapper.join(user);
-        log.info("Result : " + result);
+    @Test
+    public void loginTest() {
+        UserDTO loginUser = mapper.login("testid", "testpw");
+        log.info(loginUser);
+        System.out.println(loginUser);
     }
 }

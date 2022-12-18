@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a9a3a0-e170-419b-959b-6d9b74cfeb3b" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0a9a3a0-e170-419b-959b-6d9b74cfeb3b" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +83,7 @@
       <recent name="C:\study_\Spring\spring\ex02\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserMapperTest.joinTest">
+  <component name="RunManager" selected="JUnit.UserMapperTest.loginTest">
     <configuration name="UserMapperTest.joinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex02" />
       <extension name="coverage">
@@ -97,6 +95,22 @@
       <option name="PACKAGE_NAME" value="com.example.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.example.mapper.UserMapperTest" />
       <option name="METHOD_NAME" value="joinTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,6 +206,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserMapperTest.loginTest" />
         <item itemvalue="JUnit.UserMapperTest.joinTest" />
       </list>
     </recent_temporary>
@@ -206,7 +221,7 @@
       <updated>1671023169891</updated>
       <workItem from="1671023171606" duration="674000" />
       <workItem from="1671084054074" duration="15404000" />
-      <workItem from="1671259695957" duration="7802000" />
+      <workItem from="1671259695957" duration="15659000" />
     </task>
     <servers />
   </component>

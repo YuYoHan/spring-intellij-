@@ -5,7 +5,7 @@
     <insert id="join">
         insert into spring_user values(#{userId}, #{userPw}, #{userName})
     </insert>
-    <select id="login">
-
+    <select id="login" resultType="com.example.domain.UserDTO">
+        select * from spring_user where userid=#{userId} and userpw=#{userPw}
     </select>
 </mapper>
