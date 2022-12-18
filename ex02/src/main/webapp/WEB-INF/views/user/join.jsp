@@ -9,6 +9,32 @@
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
     <link rel="stylesheet" href="/resources/assets/css/main.css"/>
+    <style>
+        .heading {
+            color: white;
+        }
+
+        .joinForm {
+            width: 50%;
+            margin: 0 auto;
+        }
+        .joinForm h3 {
+            float: left;
+            width: 30%;
+            color: white;
+            line-height: 3.24rem;
+        }
+        .joinForm input[type=text], .joinForm input[type=password] {
+            float: right;
+            width: 70%;
+        }
+        .joinForm>.col-12::after{
+            display: block;
+            content: '';
+            height: 50px;
+            clear: both;
+        }
+    </style>
 </head>
 <body class="is-preload">
 
@@ -29,7 +55,7 @@
         <div class="inner">
             <h2 class="heading alt">회원가입</h2>
             <br />
-            <form class="joinForm" name="joinForm" id="joinForm" action="" method="post">
+            <form class="joinForm" name="joinForm" id="joinForm" action="/user/join" method="post">
                 <div class="col-12">
                     <h3>아이디</h3>
                     <input type="text" name="userId" />
@@ -42,7 +68,7 @@
                     <h3>이름</h3>
                     <input type="text" name="userName"/>
                 </div>
-                <div class="col-12">
+                <div class="col-12" style="text-align: center">
                     <input type="submit"  value="회원가입" class="primary"/>
                 </div>
             </form>
