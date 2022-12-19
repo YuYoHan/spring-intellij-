@@ -97,54 +97,54 @@ pom.xml 화면을 클릭하면 옆에 자그마하게 뜨는데 그것을 클릭
 ![](https://velog.velcdn.com/images/dbekdms17/post/ec936a71-eb8d-4d8e-9ac1-cf0a76b00250/image.png)
 ![](https://velog.velcdn.com/images/dbekdms17/post/f85e3913-9fa0-4a4b-bd97-cb605bc2c1d5/image.png)
 
-> **HomeController내용**
+ **HomeController내용**
 ```java
 package com.example.controller;
->
+
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
->
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
->
+
 /**
  * Handles requests for the application home page.
  */
 @Controller
 public class HomeController {
->
+
     private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
->
+
     /**
      * Simply selects the home view to render by returning its name.
      */
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String home(Locale locale, Model model) {
         logger.info("Welcome home! The client locale is {}.", locale);
->
+
         Date date = new Date();
         DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
->
+
         String formattedDate = dateFormat.format(date);
->
+
         model.addAttribute("serverTime", formattedDate );
->
+
         return "index";
     }
->
+
 }
->
+
 ```
 
 log4j.xml을 추가하고 내용을 작성한다.
 ![](https://velog.velcdn.com/images/dbekdms17/post/f8349988-a8bd-4c05-aba8-65a76e9e9621/image.png)
 
->```xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
@@ -216,7 +216,7 @@ log4j.xml을 추가하고 내용을 작성한다.
 
 `web.xml`에 내용을 추가한다.
 
->```xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -266,7 +266,7 @@ log4j.xml을 추가하고 내용을 작성한다.
 ![업로드중..](blob:https://velog.io/18024e7d-f576-4911-a0c9-8d5465908124)
 
 
->**root-context.xml**
+**root-context.xml**
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -307,7 +307,7 @@ log4j.xml을 추가하고 내용을 작성한다.
 </beans>
 ```
 
->**servlet-context.xml**
+**servlet-context.xml**
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans:beans xmlns="http://www.springframework.org/schema/mvc"
@@ -337,4 +337,7 @@ log4j.xml을 추가하고 내용을 작성한다.
 
 ```
 
-**
+**log4jdbc.log4j2.properties**
+```
+log4jdbc.spylogdelegator.name = net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+```
