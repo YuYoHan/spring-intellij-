@@ -8,9 +8,11 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
     <!-- property를 참고로 hikariConfig라는 bean이 생성된다. -->
-    <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
-        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/web0315" />
+    <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig" >
+<!--        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />-->
+<!--        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/web0315" />-->
+        <property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy" />
+        <property name="jdbcUrl" value="jdbc:log4jdbc:mysql://localhost:3306/web0315" />
         <property name="username" value="root" />
         <property name="password" value="1234" />
     </bean>

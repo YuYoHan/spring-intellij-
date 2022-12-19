@@ -30,5 +30,6 @@ public class UserController {
 
     @PostMapping("/join")
     public String join(UserDTO user, HttpServletRequest req) {
+
     }
 }
