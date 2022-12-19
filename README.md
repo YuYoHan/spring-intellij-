@@ -148,44 +148,54 @@ log4j.xml을 추가하고 내용을 작성한다.
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
-?
-    <!-- Appenders -->
-    <appender name="console" class="org.apache.log4j.ConsoleAppender">
-        <param name="Target" value="System.out" />
-        <layout class="org.apache.log4j.PatternLayout">
-            <param name="ConversionPattern" value="%-5p: %c - %m%n" />
-        </layout>
-    </appender>
->
-    <!-- Application Loggers -->
-    <logger name="com.example.ex00">
-        <level value="info" />
-    </logger>
->
-    <!-- 3rdparty Loggers -->
-    <logger name="org.springframework.core">
-        <level value="info" />
-    </logger>
->
-    <logger name="org.springframework.beans">
-        <level value="info" />
-    </logger>
->
-    <logger name="org.springframework.context">
-        <level value="info" />
-    </logger>
->
-    <logger name="org.springframework.web">
-        <level value="info" />
-    </logger>
->
-    <!-- Root Logger -->
-    <root>
-        <priority value="warn" />
-        <appender-ref ref="console" />
-    </root>
->
+
+	<!-- Appenders -->
+	<appender name="console" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%-5p: %c - %m%n" />
+		</layout>
+	</appender>
+
+	<!-- Application Loggers -->
+	<logger name="com.example.controller">
+		<level value="info" />
+	</logger>
+
+	<!-- 3rdparty Loggers -->
+	<logger name="org.springframework.core">
+		<level value="info" />
+	</logger>
+
+	<logger name="org.springframework.beans">
+		<level value="info" />
+	</logger>
+
+	<logger name="org.springframework.context">
+		<level value="info" />
+	</logger>
+
+	<logger name="org.springframework.web">
+		<level value="info" />
+	</logger>
+	<!--출력되는 로그 조절 -->
+	<logger name="jdbc.audit">
+		<level value="warn" />
+	</logger>
+	<logger name="jdbc.resultset">
+		<level value="warn" />
+	</logger>
+	<logger name="jdbc.connection" >
+		<level value="warn" />
+	</logger>
+	<!-- Root Logger -->
+	<root>
+		<priority value="info" />
+		<appender-ref ref="console"/>
+	</root>
+
 </log4j:configuration>
+
 ```
 
 
@@ -211,35 +221,45 @@ log4j.xml을 추가하고 내용을 작성한다.
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee https://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
->
-    <!-- The definition of the Root Spring Container shared by all Servlets and Filters -->
-    <context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value>/WEB-INF/spring/root-context.xml</param-value>
-    </context-param>
->
-    <!-- Creates the Spring Container shared by all Servlets and Filters -->
-    <listener>
-        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-    </listener>
->
-    <!-- Processes application requests -->
-    <servlet>
-        <servlet-name>appServlet</servlet-name>
-        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-        <init-param>
-            <param-name>contextConfigLocation</param-name>
-            <param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>
-        </init-param>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
->
-    <servlet-mapping>
-        <servlet-name>appServlet</servlet-name>
-        <url-pattern>/</url-pattern>
-    </servlet-mapping>
->
+
+  <!-- The definition of the Root Spring Container shared by all Servlets and Filters -->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>/WEB-INF/spring/root-context.xml</param-value>
+  </context-param>
+
+
+  <!-- Creates the Spring Container shared by all Servlets and Filters -->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+  <!-- Processes application requests -->
+  <servlet>
+    <servlet-name>appServlet</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>
+    </init-param>
+    <init-param>
+      <param-name>throwExceptionIfNoHandlerFound</param-name>
+      <param-value>true</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <!-- servlet 매핑-->
+  <servlet-mapping>
+    <servlet-name>appServlet</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+
+
+
 </web-app>
+
 ```
 
 ![](https://velog.velcdn.com/images/dbekdms17/post/1a0235a1-7e4d-4bcd-a382-9e98b20abbfe/image.png)
@@ -256,42 +276,65 @@ log4j.xml을 추가하고 내용을 작성한다.
        xsi:schemaLocation="http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd
 		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
->
+
     <!-- property를 참고로 hikariConfig라는 bean이 생성된다. -->
-    <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
-        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/web0315"></property>
-        <property name="username" value="root"></property>
-        <property name="password" value="1234"></property>
+    <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig" >
+<!--        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />-->
+<!--        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/web0315" />-->
+        <property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy" />
+        <property name="jdbcUrl" value="jdbc:log4jdbc:mysql://localhost:3306/web0315" />
+        <property name="username" value="root" />
+        <property name="password" value="1234" />
     </bean>
->
+
     <!-- 위에서 hikariConfig라는 bean을 참고로 해서 DataSource라는 bean 생성된다. -->
     <bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
         <!-- hikariConfig라는 객체를 참고하라는 것 -->
         <constructor-arg ref="hikariConfig"/>
     </bean>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <mybatis-spring:scan base-package="com.example.mapper" />
+    <context:component-scan base-package="com.example.controller" />
+    <context:component-scan base-package="com.example.sample" />
     <!-- Root Context: defines shared resources visible to all other web components -->
-    <!-- 어디서 scan하면 니가 주입할 객체들을 찾을 수 있는지 알려주는 것 -->
-    <context:component-scan base-package="com.example.sample"/>
+    <!-- 어디서 scan 하면 니가 주입할 객체들을 찾을 수 있는지 알려주는 것 -->
     <!-- Root Context: defines shared resources visible to all other web components -->
->
+
 </beans>
 ```
 
 >**servlet-context.xml**
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/views/"/>
-        <property name="suffix" value=".jsp"/>
-        <property name="order" value="1"/>
-    </bean>
->
-    <context:component-scan base-package="com.example.controller"/>
-</beans>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:context="http://www.springframework.org/schema/context"
+             xsi:schemaLocation="http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
+
+    <!-- Annotation 활성화 -->
+    <annotation-driven />
+    <resources mapping="/resources/**" location="/resources/" />
+    <!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
+    <beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <beans:property name="prefix" value="/WEB-INF/views/" />
+        <beans:property name="suffix" value=".jsp" />
+    </beans:bean>
+
+    <context:component-scan base-package="com.example.controller" />
+
+
+
+</beans:beans>
+
 ```
+
+**
