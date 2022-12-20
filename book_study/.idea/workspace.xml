@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2620e52a-c433-4f8d-9acd-32c5cecc3b43" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2620e52a-c433-4f8d-9acd-32c5cecc3b43" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +82,7 @@
       <recent name="C:\study_\Spring\spring\book_study" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TimeMapperTest.testGetTime">
+  <component name="RunManager" selected="Tomcat 서버.Tomcat 9.0.70">
     <configuration name="DataSourceTests.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_study" />
       <extension name="coverage">
@@ -286,7 +284,7 @@
       <workItem from="1670915519378" duration="2475000" />
       <workItem from="1671241246793" duration="9563000" />
       <workItem from="1671381515267" duration="13929000" />
-      <workItem from="1671504051972" duration="2365000" />
+      <workItem from="1671504051972" duration="3274000" />
     </task>
     <servers />
   </component>

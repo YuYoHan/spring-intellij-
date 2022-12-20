@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 @RequestMapping("/sample/*")
@@ -25,6 +26,13 @@ public class SampleController {
     public String ex01(SampleDTO sample) {
         log.info("" + sample);
         return "ex01";
+    }
+
+    @GetMapping("/ex02")
+    public String ex02(@RequestParam("name")String name, @RequestParam("age")int age) {
+        log.info("name : " + name);
+        log.info("age : " + age);
+        return "ex02";
     }
 
 }
