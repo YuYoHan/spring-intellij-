@@ -9,7 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed6f8f02-80b5-4058-996e-b92af94ffc52" name="변경" comment="" />
+    <list default="true" id="ed6f8f02-80b5-4058-996e-b92af94ffc52" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book_study/src/main/java/com/example/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/src/main/java/com/example/controller/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book_study/src/main/java/com/example/mapper/TimeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/src/main/java/com/example/mapper/TimeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book_study/src/test/java/com/example/persistance/TimeMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/src/test/java/com/example/persistance/TimeMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,24 +51,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/study_/1900_Java/book",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2091954",
-    "spring.configuration.checksum": "69530d9ab1a0aba4f332ccfba664bef8"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/study_/Spring/spring/ex01_&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2091954&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;69530d9ab1a0aba4f332ccfba664bef8&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\study_\Spring\spring\ex01_\src\main\resources" />
@@ -173,6 +179,8 @@
       <updated>1670915498792</updated>
       <workItem from="1670915500686" duration="8150000" />
       <workItem from="1670983271199" duration="11437000" />
+      <workItem from="1671610113277" duration="35000" />
+      <workItem from="1671610400638" duration="362000" />
     </task>
     <servers />
   </component>

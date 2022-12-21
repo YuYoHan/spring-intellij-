@@ -1,12 +1,19 @@
 package com.example.controller;
 
 import com.example.domain.SampleDTO;
+import com.example.domain.SampleDTOList;
+import com.example.domain.TodoDTO;
 import lombok.extern.log4j.Log4j;
+import org.springframework.beans.propertyeditors.CustomBooleanEditor;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.*;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
 
 @Controller
 @RequestMapping("/sample/*")
@@ -35,4 +42,50 @@ public class SampleController {
         return "ex02";
     }
 
+    @GetMapping("/ex03")
+    public String ex03List(@RequestParam("list")ArrayList<String> list) {
+        log.info(list);
+
+        return "ex03";
+    }
+
+    @GetMapping("/ex04")
+    public String ex04(@RequestParam("list")String[] lists) {
+        log.info(Arrays.toString(lists));
+        return "ex04";
+    }
+
+    @GetMapping("/ex05")
+    public String ex05(SampleDTOList list) {
+        log.info(list);
+        return "ex05";
+    }
+
+//    @InitBinder
+//    public void initBinder(WebDataBinder binder) {
+//        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+//        binder.registerCustomEditor(java.util.Date.class, new CustomBooleanEditor(dateFormat, false));
+//    }
+
+
+    @GetMapping("/ex06")
+    public String ex06(TodoDTO todo) {
+        log.info("todo : " + todo);
+        return "ex06";
+    }
+
+    @GetMapping("/ex07")
+    public String ex07(SampleDTO dto, int page) {
+        log.info("dto : " + dto);
+        log.info(("page : " + page));
+        return "/sample/ex07";
+    }
+
+    @GetMapping("/ex08")
+    public String ex08(SampleDTO dto, int page, Model model) {
+        log.info(dto);
+        model.addAttribute("dto", dto);
+        model.addAttribute("page", page);
+        return "/sample/ex08";
+    }
 }

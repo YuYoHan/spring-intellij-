@@ -24,14 +24,13 @@ public class TimeMapperTest {
         // 실제 동작하는 클래스의 이름을 확인해 준다.
         log.info(timeMapper.getClass().getName());
         log.info(timeMapper.getTime());
-        System.out.println("-------------------");
-        System.out.println(timeMapper.getClass().getName());
-        System.out.println(timeMapper.getTime());
     }
 
     @Test
     public void testGetTime2() {
-        System.out.println(timeMapper.getClass().getName());
-        System.out.println(timeMapper.getTime());
+        log.info("--------------------------------------------------");
+        // 실제 동작하는 클래스의 이름을 확인해 준다.
+        log.info(timeMapper.getClass().getName());
+        log.info(timeMapper.getTime());
     }
 }
