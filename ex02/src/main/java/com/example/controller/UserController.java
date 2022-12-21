@@ -36,14 +36,19 @@ public class UserController {
     public void replace() {}
 
     @PostMapping("/join")
+    // 자연스럽게 날라온 응답객체를 addCookie로 보내주기 위해서 매개변수로 받는다.
     public String join(UserDTO user, HttpServletResponse resp) {
         if(service.join(user)) {
             Cookie joinId = new Cookie("joinId", user.getUserId());
-            // 쿠키종료
+            // 쿠키 종료
             // 쿠키 expiration 타임
             joinId.setMaxAge(300);
+            // 쿠키 저장
             resp.addCookie(joinId);
         }
-        return "";
+        // 그냥 return "이름"을 하면 이름에 해당하는 view를 보여주는 것이고
+        // return "redirect:/"을 하면 redirect: 오른쪽 주소로 URL요청을 다시 하는 것입니다.
+        // 그로 인해 주소가 바뀌고 해당 URL에 속하는 컨트롤러의 함수가 한번 더 호출이 되는 것이다.
+        return "redirect:/";
     }
 }

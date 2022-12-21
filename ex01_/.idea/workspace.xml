@@ -12,7 +12,6 @@
     <list default="true" id="ed6f8f02-80b5-4058-996e-b92af94ffc52" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../book_study/src/main/java/com/example/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/src/main/java/com/example/controller/SampleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

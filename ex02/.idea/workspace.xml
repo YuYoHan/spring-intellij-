@@ -64,7 +64,7 @@
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2091954",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "File.Encoding",
     "spring.configuration.checksum": "51d264320b3c0b52c03e751dd5caba94"
   },
   "keyToStringList": {
@@ -87,7 +87,7 @@
       <recent name="C:\study_\Spring\spring\ex02\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.loginTest">
+  <component name="RunManager" selected="Tomcat 서버.Tomcat 9.0.70">
     <configuration name="UserMapperTest.joinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex02" />
       <extension name="coverage">
@@ -261,7 +261,7 @@
       <workItem from="1671084054074" duration="15404000" />
       <workItem from="1671259695957" duration="18918000" />
       <workItem from="1671412752762" duration="11031000" />
-      <workItem from="1671610094223" duration="1267000" />
+      <workItem from="1671610094223" duration="3987000" />
     </task>
     <servers />
   </component>

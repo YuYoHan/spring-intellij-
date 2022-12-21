@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -94,5 +95,12 @@ public class SampleController {
         log.info("dto : " +dto);
         log.info("page : " + page);
         return "/sample/ex09";
+    }
+
+    @GetMapping("/ex10")
+    public String ex10(@RequestParam("name")String name, @RequestParam("age") int age, RedirectAttributes rttr) {
+        rttr.addFlashAttribute("name", "apple");
+        rttr.addFlashAttribute("age", 18);
+        return "/sample/ex10";
     }
 }
