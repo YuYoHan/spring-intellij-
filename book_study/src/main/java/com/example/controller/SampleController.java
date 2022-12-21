@@ -88,4 +88,11 @@ public class SampleController {
         model.addAttribute("page", page);
         return "/sample/ex08";
     }
+
+    @GetMapping("/ex09")
+    public String ex09(SampleDTO dto, @ModelAttribute("page") int page) {
+        log.info("dto : " +dto);
+        log.info("page : " + page);
+        return "/sample/ex09";
+    }
 }

@@ -12,8 +12,6 @@
     <list default="true" id="ed6f8f02-80b5-4058-996e-b92af94ffc52" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../book_study/src/main/java/com/example/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/src/main/java/com/example/controller/SampleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book_study/src/main/java/com/example/mapper/TimeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/src/main/java/com/example/mapper/TimeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book_study/src/test/java/com/example/persistance/TimeMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/src/test/java/com/example/persistance/TimeMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +178,7 @@
       <workItem from="1670915500686" duration="8150000" />
       <workItem from="1670983271199" duration="11437000" />
       <workItem from="1671610113277" duration="35000" />
-      <workItem from="1671610400638" duration="362000" />
+      <workItem from="1671610400638" duration="599000" />
     </task>
     <servers />
   </component>
