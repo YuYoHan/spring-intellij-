@@ -21,7 +21,7 @@ public class UserServiceTest {
         UserDTO user = new UserDTO();
         user.setUserId("testId2");
         user.setUserPw("testPw2");
-        user.setUserName("testName2");
+        user.setUserName("김민하");
 
         log.info("result : " + service.join(user));
     }

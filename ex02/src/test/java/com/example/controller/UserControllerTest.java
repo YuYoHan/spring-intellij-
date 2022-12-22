@@ -1,5 +1,7 @@
 package com.example.controller;
 
+import com.example.domain.UserDTO;
+import com.example.service.UserService;
 import lombok.Setter;
 import lombok.extern.log4j.Log4j;
 import org.junit.Before;
@@ -13,6 +15,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -55,6 +58,32 @@ public class UserControllerTest {
         // 어떤 뷰를 찾아갈건지
         log.info(mav.getViewName());
         // 어떤 모델에 어떤 데이터들이 담겨있는지 확인할 수 있다.
+        log.info(mav.getModelMap());
+    }
+
+    @Test
+    public void loginTest() throws  Exception {
+        ModelAndView mav = mvc.perform(MockMvcRequestBuilders.post("/user/login")
+                .param("userId", "apple")
+                .param("userPw", "zxzz12")
+        ).andReturn()
+                .getModelAndView();
+
+        // 어떤 뷰를 찾아갈건지
+        log.info(mav.getViewName());
+        // 어떤 모델에 어떤 데이터들이 담겨있는지 확인할 수 있다.
+        log.info(mav.getModelMap());
+    }
+
+    @Test
+    public void joinTest2() throws Exception {
+        ModelAndView mav = mvc.perform(MockMvcRequestBuilders.post("/user/join")
+                .param("userId", "bananasd")
+                .param("userPw", "zxzz12")
+                .param("userName", "바나나")
+        ).andReturn().getModelAndView();
+
+        log.info(mav.getViewName());
         log.info(mav.getModelMap());
     }
 }

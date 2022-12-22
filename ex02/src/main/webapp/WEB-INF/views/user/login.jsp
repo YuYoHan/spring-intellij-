@@ -55,7 +55,7 @@
     <div class="inner">
       <h2 class="heading alt">로그인</h2>
       <br />
-      <form class="loginForm" name="loginForm" id="loginForm" action="" method="post">
+      <form class="loginForm" name="loginForm" id="loginForm" action="/user/login" method="post">
         <div class="col-12">
           <h3>아이디</h3>
           <input type="text" name="userId" />

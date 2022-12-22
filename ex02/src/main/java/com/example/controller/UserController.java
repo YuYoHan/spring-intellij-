@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 @Controller
 @Log4j
@@ -50,5 +51,22 @@ public class UserController {
         // return "redirect:/"을 하면 redirect: 오른쪽 주소로 URL요청을 다시 하는 것입니다.
         // 그로 인해 주소가 바뀌고 해당 URL에 속하는 컨트롤러의 함수가 한번 더 호출이 되는 것이다.
         return "redirect:/";
+    }
+
+    @PostMapping("/login")
+    public String login(String userId, String userPw, HttpServletRequest req) {
+        HttpSession session = req.getSession();
+        UserDTO loginUser = service.login(userId, userPw);
+        if(loginUser != null) {
+            session.setAttribute("loginUser", loginUser.getUserId());
+        }
+        return "index";
+    }
+
+    @GetMapping("/logout")
+    public String logout(HttpServletRequest req) {
+        // 삭제
+        req.getSession().invalidate();
+        return "index";
     }
 }
