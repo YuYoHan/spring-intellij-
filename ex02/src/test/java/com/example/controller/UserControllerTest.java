@@ -77,11 +77,24 @@ public class UserControllerTest {
 
     @Test
     public void joinTest2() throws Exception {
+        // mvc.perform(요청) : 해당 요청대로 mockMVC 수행
+        //                              요청제작자               post방식          /user/join으로 보내는 요청을 생성
         ModelAndView mav = mvc.perform(MockMvcRequestBuilders.post("/user/join")
-                .param("userId", "bananasd")
+                .param("userId", "bananasd")     // ← 요청을 파라미터로 담아서 요청 보내기
                 .param("userPw", "zxzz12")
                 .param("userName", "바나나")
-        ).andReturn().getModelAndView();
+        ).andReturn()       // 반환된 결과 : 응답(뷰, 모델 등을 포함)
+                .getModelAndView(); // 응답에서 모델과 뷰를 포함하고 있는 타입의 객체 받기
+
+        log.info(mav.getViewName());
+        log.info(mav.getModelMap());
+    }
+
+    @Test
+    public void logoutTest() throws Exception {
+        ModelAndView mav = mvc.perform(MockMvcRequestBuilders.get("/user/logout"))
+                .andReturn()
+                .getModelAndView();
 
         log.info(mav.getViewName());
         log.info(mav.getModelMap());
