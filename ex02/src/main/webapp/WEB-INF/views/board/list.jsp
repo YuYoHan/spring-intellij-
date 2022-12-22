@@ -40,6 +40,33 @@
             <h1 class="heading alt">Board</h1>
             <p>게시판 목록</p>
             <a href="#" class="primary">글 등록 </a>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>번호</th>
+                            <th>제목</th>
+                            <th>작성자</th>
+                            <th>작성시간</th>
+                            <th>수정시간</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <form>
+                <div>
+
+                </div>
+            </form>
         </div>
     </div>
 </div>

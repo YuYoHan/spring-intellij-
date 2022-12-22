@@ -139,4 +139,15 @@ public class SampleController {
         log.info(idValue);
         return "/sample/ex14";
     }
+
+    @GetMapping("/ex15")
+    public @ResponseBody SampleDTO ex15() {
+        log.info("/ex15............");
+
+        SampleDTO dto = new SampleDTO();
+        dto.setAge(10);
+        dto.setName("홍길동");
+
+        return dto;
+    }
 }

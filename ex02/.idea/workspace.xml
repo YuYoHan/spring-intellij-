@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a9a3a0-e170-419b-959b-6d9b74cfeb3b" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../book_study/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book_study/src/main/java/com/example/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/src/main/java/com/example/controller/SampleController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +22,8 @@
       <list>
         <option value="Interface" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -281,7 +279,7 @@
       <workItem from="1671610094223" duration="3987000" />
       <workItem from="1671628954881" duration="8749000" />
       <workItem from="1671643761123" duration="1069000" />
-      <workItem from="1671659434157" duration="16058000" />
+      <workItem from="1671659434157" duration="17657000" />
     </task>
     <servers />
   </component>
