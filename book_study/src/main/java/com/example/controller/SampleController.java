@@ -11,6 +11,8 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -102,5 +104,39 @@ public class SampleController {
         rttr.addFlashAttribute("name", "apple");
         rttr.addFlashAttribute("age", 18);
         return "/sample/ex10";
+    }
+
+    @GetMapping("/ex11")
+    public String ex11(HttpServletRequest req) throws Exception {
+        HttpSession session = req.getSession();
+        String name = "apple";
+        session.setAttribute("sessionId", name);
+        return "/sample/ex11";
+    }
+
+    @GetMapping("/ex12")
+    public String ex12(HttpServletRequest req) {
+        HttpSession session = req.getSession();
+        String name = (String)session.getAttribute("sessionId");
+
+        log.info("===================");
+        log.info("세션에 저장되어 있는 변수 : " + name);
+        log.info("===================");
+
+        name = "banana";
+        session.setAttribute("sessionId", name);
+        return "/sample/ex12";
+    }
+
+    @GetMapping("/ex13")
+    public String ex13(HttpServletRequest req) {
+        req.getSession().invalidate();
+        return "/sample/ex13";
+    }
+
+    @GetMapping("/ex14")
+    public String ex14(@CookieValue("id") String idValue) {
+        log.info(idValue);
+        return "/sample/ex14";
     }
 }
