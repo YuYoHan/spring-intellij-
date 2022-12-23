@@ -9,6 +9,25 @@
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
     <link rel="stylesheet" href="/resources/assets/css/main.css"/>
+    <style>
+        #banner input, #banner select, #banner option {
+            color: #000000;
+        }
+        select {
+            width: 15%;
+            text-align: center;
+            padding: 20px;
+            display: inline;
+        }
+
+        #keyword {
+            width: 55%;
+            display: inline;
+        }
+        #keyword+a {
+            border: 1px solid #fff;
+        }
+    </style>
 </head>
 <body class="is-preload">
 <!-- Header -->
@@ -39,8 +58,8 @@
         <div class="inner">
             <h1 class="heading alt">Board</h1>
             <p>게시판 목록</p>
-            <a href="#" class="primary">글 등록 </a>
-            <div class="table-wrapper">
+            <a href="#" class="button primary" style="float: right; border-bottom: 1px solid #fff; border-radius: 0px; border-top: 1px solid #fff">글 등록 </a>
+            <div class="table-wrapper" style="clear: both">
                 <table>
                     <thead>
                         <tr>
@@ -64,9 +83,28 @@
             </div>
             <form>
                 <div>
-
+                    <select name="type">
+                        <option value="">검색</option>
+                        <option value="">제목</option>
+                        <option value="">내용</option>
+                        <option value="">작성자</option>
+                        <option value="">제목 또는 내용</option>
+                        <option value="">제목 또는 작성자</option>
+                        <option value="">제목 또는 내용 또는 작성자</option>
+                    </select>
+                    <input type="text" name="keyword" id="keyword">
+                    <a href="#" class="button primary">검색</a>
                 </div>
             </form>
+            <div>
+                <code>&lt;</code>
+                <code>1</code>
+                <code>2</code>
+                <code>3</code>
+                <code>4</code>
+                <code>5</code>
+                <code>&gt;</code>
+            </div>
         </div>
     </div>
 </div>

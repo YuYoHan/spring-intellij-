@@ -20,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,31 +48,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/study_/Spring/spring/book_study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2091954",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "51d264320b3c0b52c03e751dd5caba94"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/study_/Spring/spring/ex02/src/main/resources/com/example/mapper&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2091954&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;51d264320b3c0b52c03e751dd5caba94&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\study_\Spring\spring\ex02\src\main\resources\com\example\mapper" />
       <recent name="C:\study_\Spring\spring\ex02\src\main\resources" />
       <recent name="C:\study_\Spring\spring\ex02\src\main\webapp\resources" />
       <recent name="C:\study_\Spring\spring\ex02\src\main\webapp\WEB-INF" />
@@ -85,7 +86,23 @@
       <recent name="C:\study_\Spring\spring\ex02\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest.joinTest2">
+  <component name="RunManager" selected="JUnit.BoardMapperTest.listTest">
+    <configuration name="BoardMapperTest.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mapper.BoardMapperTest" />
+      <option name="METHOD_NAME" value="listTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserControllerTest.joinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex02" />
       <extension name="coverage">
@@ -145,22 +162,6 @@
       <option name="PACKAGE_NAME" value="com.example.service" />
       <option name="MAIN_CLASS_NAME" value="com.example.service.UserServiceTest" />
       <option name="METHOD_NAME" value="joinTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BoardMapperTest.listTest" />
         <item itemvalue="JUnit.UserControllerTest.joinTest2" />
-        <item itemvalue="JUnit.UserControllerTest.loginTest" />
         <item itemvalue="JUnit.UserServiceTest.joinTest" />
+        <item itemvalue="JUnit.UserControllerTest.loginTest" />
         <item itemvalue="JUnit.UserControllerTest.joinTest" />
-        <item itemvalue="JUnit.UserServiceTest.loginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -280,6 +281,8 @@
       <workItem from="1671628954881" duration="8749000" />
       <workItem from="1671643761123" duration="1069000" />
       <workItem from="1671659434157" duration="17657000" />
+      <workItem from="1671762862092" duration="7129000" />
+      <workItem from="1671777808198" duration="1388000" />
     </task>
     <servers />
   </component>

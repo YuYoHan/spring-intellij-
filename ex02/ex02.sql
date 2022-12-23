@@ -15,3 +15,5 @@ create table spring_board(
     updateDate datetime default now(),
     constraint board_user_fk foreign key(userId) references spring_user(userId)
 );
+
+select * from spring_user;
