@@ -71,13 +71,19 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
+                    <c:choose>
+                        <c:when test="${list != null and list.size() > 0}" >
+                            <c:forEach items="${list}" var="board">
+                                    <tr>
+                                        <td>${board.boardNum}</td>
+                                        <td>${board.boardTitle}</td>
+                                        <td>${board.userId}</td>
+                                        <td>${board.regDate}</td>
+                                        <td>${board.updateDate}</td>
+                                    </tr>
+                                </c:forEach>
+                            </c:when>
+                        </c:choose>
                     </tbody>
                 </table>
             </div>

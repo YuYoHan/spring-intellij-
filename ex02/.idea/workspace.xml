@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a9a3a0-e170-419b-959b-6d9b74cfeb3b" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0a9a3a0-e170-419b-959b-6d9b74cfeb3b" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +84,39 @@
       <recent name="C:\study_\Spring\spring\ex02\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoardMapperTest.listTest">
+  <component name="RunManager" selected="JUnit.BoardControllerTest.listTest">
+    <configuration name="BoardControllerTest.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.BoardControllerTest" />
+      <option name="METHOD_NAME" value="listTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardController.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.BoardController" />
+      <option name="METHOD_NAME" value="listTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BoardMapperTest.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex02" />
       <extension name="coverage">
@@ -98,22 +128,6 @@
       <option name="PACKAGE_NAME" value="com.example.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.example.mapper.BoardMapperTest" />
       <option name="METHOD_NAME" value="listTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.joinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="joinTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,7 +149,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest.logoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex02" />
       <extension name="coverage">
         <pattern>
@@ -145,23 +159,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.controller" />
       <option name="MAIN_CLASS_NAME" value="com.example.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest.joinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="joinTest" />
+      <option name="METHOD_NAME" value="logoutTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -257,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BoardControllerTest.listTest" />
+        <item itemvalue="JUnit.UserControllerTest.logoutTest" />
+        <item itemvalue="JUnit.BoardController.listTest" />
         <item itemvalue="JUnit.BoardMapperTest.listTest" />
         <item itemvalue="JUnit.UserControllerTest.joinTest2" />
-        <item itemvalue="JUnit.UserServiceTest.joinTest" />
-        <item itemvalue="JUnit.UserControllerTest.loginTest" />
-        <item itemvalue="JUnit.UserControllerTest.joinTest" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +280,7 @@
       <workItem from="1671643761123" duration="1069000" />
       <workItem from="1671659434157" duration="17657000" />
       <workItem from="1671762862092" duration="7129000" />
-      <workItem from="1671777808198" duration="1388000" />
+      <workItem from="1671777808198" duration="7425000" />
     </task>
     <servers />
   </component>
