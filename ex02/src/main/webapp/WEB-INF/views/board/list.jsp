@@ -27,6 +27,9 @@
         #keyword+a {
             border: 1px solid #fff;
         }
+        th, td {
+            text-align: center !important;
+        }
     </style>
 </head>
 <body class="is-preload">
@@ -63,11 +66,10 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>번호</th>
-                            <th>제목</th>
-                            <th>작성자</th>
-                            <th>작성시간</th>
-                            <th>수정시간</th>
+                            <th style="width: 10%;">번호</th>
+                            <th style="width: 40%">제목</th>
+                            <th style="width: 15%;">작성자</th>
+                            <th style="width: 35%;">작성시간</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -78,8 +80,10 @@
                                         <td>${board.boardNum}</td>
                                         <td>${board.boardTitle}</td>
                                         <td>${board.userId}</td>
-                                        <td>${board.regDate}</td>
-                                        <td>${board.updateDate}</td>
+                                        <td>${board.regDate}
+                                            <c:if test="${board.regDate != board.updateDate}">
+                                                (${board.updateDate})</td>
+                                            </c:if>
                                     </tr>
                                 </c:forEach>
                             </c:when>
@@ -109,7 +113,7 @@
                 <code>3</code>
                 <code>4</code>
                 <code>5</code>
-                <code>&gt;</code>
+                <code>&gt;&gt;</code>
             </div>
         </div>
     </div>
