@@ -13,6 +13,13 @@
         #banner input, #banner select, #banner option {
             color: #000000;
         }
+        input:not(.button), textarea {
+            border: 1px solid black !important;
+            color: #000000 !important;
+        }
+        #banner .write_area input::placeholder {
+            color: #ccc !important;
+        }
         .write_area {
             width: 70%;
             margin: 0 auto;
@@ -35,9 +42,6 @@
         }
         hr {
             clear: both;
-        }
-        input:not(.button), textarea {
-            border: 2px solid black !important;
         }
     </style>
 </head>

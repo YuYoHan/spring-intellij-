@@ -33,6 +33,9 @@
     </style>
 </head>
 <body class="is-preload">
+<c:if test="${boardNum != null}">
+    <script>alert("${boardNum}번 게시글 작성 완료!")</script>
+</c:if>
 <!-- Header -->
 <header id="header" class="alt">
     <a class="logo" href="/">Spring <span>Board</span></a>

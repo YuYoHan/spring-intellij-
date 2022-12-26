@@ -23,7 +23,7 @@ public class BoardServiceImpl implements BoardService {
 
     @Override
     public void regist(BoardDTO board) {
-
+        mapper.insert(board);
     }
 
     @Override
@@ -39,5 +39,10 @@ public class BoardServiceImpl implements BoardService {
     @Override
     public boolean remove(Long boardNum) {
         return false;
+    }
+
+    @Override
+    public int getMaxBoardNum(String userId) {
+        return mapper.getMaxBoardNum(userId);
     }
 }

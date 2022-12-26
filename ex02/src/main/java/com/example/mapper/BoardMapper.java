@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface BoardMapper {
     List<BoardDTO> getList();
+    void insert(BoardDTO board);
+    int getMaxBoardNum(String userId);
 }
