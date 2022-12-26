@@ -11,6 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2620e52a-c433-4f8d-9acd-32c5cecc3b43" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/ex02.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/ex02.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/controller/BoardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex02/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -294,6 +296,7 @@
       <workItem from="1671695083716" duration="2294000" />
       <workItem from="1671715488422" duration="129000" />
       <workItem from="1671715627782" duration="1858000" />
+      <workItem from="1672018773347" duration="1965000" />
     </task>
     <servers />
   </component>

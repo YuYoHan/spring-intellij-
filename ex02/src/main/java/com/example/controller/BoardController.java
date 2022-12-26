@@ -19,4 +19,9 @@ public class BoardController {
     public void list(Model model) {
         model.addAttribute("list", service.getList());
     }
+
+    @GetMapping("/regist")
+    public void regist() {
+
+    }
 }

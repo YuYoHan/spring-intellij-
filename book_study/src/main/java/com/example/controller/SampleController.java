@@ -5,6 +5,9 @@ import com.example.domain.SampleDTOList;
 import com.example.domain.TodoDTO;
 import lombok.extern.log4j.Log4j;
 import org.springframework.beans.propertyeditors.CustomBooleanEditor;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.WebDataBinder;
@@ -149,5 +152,21 @@ public class SampleController {
         dto.setName("홍길동");
 
         return dto;
+    }
+
+    @GetMapping("/ex16")
+    public ResponseEntity<String> ex16() {
+        log.info("/ex16---------------------");
+
+        // {"name" : "홍길동"}
+        String msg = "{\"name\": \"홍길동\"}";
+
+        // HTTP POST를 요청할때 보내는 데이터(Body)를 설명해주는 헤더(Header)도 만들어서 같이 보내줘야 한다.
+        HttpHeaders header = new HttpHeaders();
+        // add()를 사용해 Header에 들어갈 내용을 추가해주자.
+        header.add("Content-Type", "appplication/json;charset=UTF-8");
+
+        return new ResponseEntity<>(msg, header, HttpStatus.OK);
+
     }
 }

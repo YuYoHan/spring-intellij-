@@ -16,7 +16,7 @@
         select {
             width: 15%;
             text-align: center;
-            padding: 20px;
+            padding: 9px;
             display: inline;
         }
 
@@ -61,7 +61,7 @@
         <div class="inner">
             <h1 class="heading alt">Board</h1>
             <p>게시판 목록</p>
-            <a href="#" class="button primary" style="float: right; border-bottom: 1px solid #fff; border-radius: 0px; border-top: 1px solid #fff">글 등록 </a>
+            <a href="/board/regist" class="button primary" style="float: right; border-bottom: 1px solid #fff; border-radius: 0px; border-top: 1px solid #fff">글 등록 </a>
             <div class="table-wrapper" style="clear: both">
                 <table>
                     <thead>
