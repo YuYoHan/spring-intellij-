@@ -12,6 +12,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
@@ -167,6 +168,21 @@ public class SampleController {
         header.add("Content-Type", "appplication/json;charset=UTF-8");
 
         return new ResponseEntity<>(msg, header, HttpStatus.OK);
+    }
 
+    @GetMapping("/exUpload")
+    public void exUpload() {
+        log.info("/exUpload.................");
+
+    }
+
+    @PostMapping("/exUploadPost")
+    public void exUploadPost(ArrayList<MultipartFile> files) {
+        files.forEach(file -> {
+            log.info("---------------------------");
+            // 파일 업로드명
+            log.info("name : " + file.getOriginalFilename());
+            log.info("size : " + file.getSize());
+        });
     }
 }
