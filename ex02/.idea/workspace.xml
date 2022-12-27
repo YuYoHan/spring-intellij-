@@ -86,40 +86,8 @@
       <recent name="C:\study_\Spring\spring\ex02\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat 서버.Tomcat 9.0.70">
-    <configuration name="BoardControllerTest.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.controller.BoardControllerTest" />
-      <option name="METHOD_NAME" value="listTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardController.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.controller.BoardController" />
-      <option name="METHOD_NAME" value="listTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardMapperTest.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BoardSertviceTest.getMaxBoardNumTest">
+    <configuration name="BoardMapperTest.getMaxBoardNumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex02" />
       <extension name="coverage">
         <pattern>
@@ -129,39 +97,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.example.mapper.BoardMapperTest" />
+      <option name="METHOD_NAME" value="getMaxBoardNumTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardMapperTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mapper.BoardMapperTest" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardSertviceTest.getMaxBoardNumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.service.BoardSertviceTest" />
+      <option name="METHOD_NAME" value="getMaxBoardNumTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardSertviceTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.service.BoardSertviceTest" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardSertviceTest.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.service.BoardSertviceTest" />
       <option name="METHOD_NAME" value="listTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.joinTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="joinTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.logoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.example.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="logoutTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -257,20 +257,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BoardController.listTest" />
-      <item itemvalue="JUnit.BoardControllerTest.listTest" />
-      <item itemvalue="JUnit.BoardMapperTest.listTest" />
-      <item itemvalue="JUnit.UserControllerTest.joinTest2" />
-      <item itemvalue="JUnit.UserControllerTest.logoutTest" />
+      <item itemvalue="JUnit.BoardMapperTest.getMaxBoardNumTest" />
+      <item itemvalue="JUnit.BoardMapperTest.insertTest" />
+      <item itemvalue="JUnit.BoardSertviceTest.getMaxBoardNumTest" />
+      <item itemvalue="JUnit.BoardSertviceTest.insertTest" />
+      <item itemvalue="JUnit.BoardSertviceTest.listTest" />
       <item itemvalue="Tomcat 서버.Tomcat 9.0.70" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BoardControllerTest.listTest" />
-        <item itemvalue="JUnit.UserControllerTest.logoutTest" />
-        <item itemvalue="JUnit.BoardController.listTest" />
-        <item itemvalue="JUnit.BoardMapperTest.listTest" />
-        <item itemvalue="JUnit.UserControllerTest.joinTest2" />
+        <item itemvalue="JUnit.BoardSertviceTest.getMaxBoardNumTest" />
+        <item itemvalue="JUnit.BoardSertviceTest.insertTest" />
+        <item itemvalue="JUnit.BoardSertviceTest.listTest" />
+        <item itemvalue="JUnit.BoardMapperTest.getMaxBoardNumTest" />
+        <item itemvalue="JUnit.BoardMapperTest.insertTest" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +295,8 @@
       <workItem from="1671842459540" duration="5179000" />
       <workItem from="1671928907084" duration="8265000" />
       <workItem from="1672043011658" duration="3569000" />
-      <workItem from="1672047904086" duration="640000" />
+      <workItem from="1672047904086" duration="1020000" />
+      <workItem from="1672104247614" duration="3523000" />
     </task>
     <servers />
   </component>

@@ -10,14 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2620e52a-c433-4f8d-9acd-32c5cecc3b43" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../ex02/.idea/dataSources/a424c108-d92e-43bd-986f-9efa47f0532e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/.idea/dataSources/a424c108-d92e-43bd-986f-9efa47f0532e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/mapper/BoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/mapper/BoardMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/resources/com/example/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/resources/com/example/mapper/BoardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/webapp/WEB-INF/views/board/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/webapp/WEB-INF/views/board/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/src/test/java/com/example/mapper/BoardMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/test/java/com/example/mapper/BoardMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/src/test/java/com/example/service/BoardSertviceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/test/java/com/example/service/BoardSertviceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,24 +57,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/study_/Spring/spring/ex02",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2091954",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "08e824c5a9124471144a9aafb27c3f11"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/study_/Spring/spring/ex02&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2091954&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;08e824c5a9124471144a9aafb27c3f11&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\study_\Spring\spring\book_study\src\main\resources" />
@@ -301,6 +296,7 @@
       <workItem from="1671715488422" duration="129000" />
       <workItem from="1671715627782" duration="1858000" />
       <workItem from="1672018773347" duration="8832000" />
+      <workItem from="1672102040968" duration="1234000" />
     </task>
     <servers />
   </component>
