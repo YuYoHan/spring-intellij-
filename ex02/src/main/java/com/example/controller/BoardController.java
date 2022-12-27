@@ -21,6 +21,7 @@ public class BoardController {
     @GetMapping("/list")
     public void list(Model model) {
         model.addAttribute("list", service.getList());
+        model.addAttribute("pageMaker", )
     }
 
     @GetMapping("/regist")

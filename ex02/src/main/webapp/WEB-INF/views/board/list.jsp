@@ -93,11 +93,16 @@
                                     </tr>
                                 </c:forEach>
                             </c:when>
+                        <c:otherwise>
+                            <tr>
+                                <td colspan="5">작성된 게시글이 없습니다.</td>
+                            </tr>
+                        </c:otherwise>
                         </c:choose>
                     </tbody>
                 </table>
             </div>
-            <form>
+            <form id="searchForm">
                 <div>
                     <select name="type">
                         <option value="">검색</option>
@@ -119,7 +124,7 @@
                 <code>3</code>
                 <code>4</code>
                 <code>5</code>
-                <code>&gt;&gt;</code>
+                <code>&gt;</code>
             </div>
         </div>
     </div>

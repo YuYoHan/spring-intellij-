@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a9a3a0-e170-419b-959b-6d9b74cfeb3b" name="변경" comment="" />
+    <list default="true" id="b0a9a3a0-e170-419b-959b-6d9b74cfeb3b" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +22,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -295,6 +297,8 @@
       <workItem from="1672043011658" duration="3569000" />
       <workItem from="1672047904086" duration="1020000" />
       <workItem from="1672104247614" duration="13162000" />
+      <workItem from="1672137338019" duration="1035000" />
+      <workItem from="1672154642950" duration="606000" />
     </task>
     <servers />
   </component>
