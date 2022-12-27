@@ -43,6 +43,9 @@
         hr {
             clear: both;
         }
+        .replyForm input, .replyForm textarea {
+            width: 100%;
+        }
     </style>
 </head>
 <body class="is-preload">
@@ -103,20 +106,21 @@
                     </c:if>
                 </form>
                 <h3>댓 글</h3>
-                <a href="#">댓글 등록</a>
-                <br/>
-                <br />
-                <div class="replyForm" style="">
-                    <div>
+                <p style="text-align: right;">
+                <a href="#" class="button primary small">댓글 등록</a>
+                </p>
+                <div class="replyForm row" style="" >
+                    <div style="width: 15%">
                         <h4>작성자</h4>
-                        <input name="replyWriter" value="${loginUser}" readonly>
+                        <input name="replyWriter" value="${loginUser}" readonly style="text-align: center">
                     </div>
-                    <div>
+                    <div style="width: 65%;">
                         <h4>내 용</h4>
                         <textarea name="replyContents" placeholder="Contents" style="resize: none;"></textarea>
                     </div>
-                    <div>
-                        <a href="#" class="button primary small">등록</a>
+                    <div style="width: 15%">
+                        <h4>&nbsp;</h4>
+                        <a href="#" class="button primary small" style="margin-bottom: 1rem;">등록</a>
                         <a href="#" class="button primary small">취소</a>
                     </div>
                 </div>
