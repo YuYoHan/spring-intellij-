@@ -14,4 +14,7 @@
     <select id="getMaxBoardNum" resultType="_int">
         select max(boardNum) from spring_board where userId=#{userId}
     </select>
+    <select id="getDatail" resultType="com.example.domain.BoardDTO">
+        select * from spring_board where boardNum=#{boardNum}
+    </select>
 </mapper>

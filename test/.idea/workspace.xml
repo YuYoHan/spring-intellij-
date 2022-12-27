@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63a6665e-d52e-4738-8a31-1ba9da7271ba" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/mapper/BoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/mapper/BoardMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/src/main/resources/com/example/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/resources/com/example/mapper/BoardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

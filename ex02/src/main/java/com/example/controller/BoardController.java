@@ -37,4 +37,9 @@ public class BoardController {
         ra.addFlashAttribute("boardNum", boardNum);
         return "redirect:/board/list";
     }
+
+    @GetMapping("/get")
+    public void get(Long boardNum, Model model) {
+        model.addAttribute("board", service.get(boardNum));
+    }
 }

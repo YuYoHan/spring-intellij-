@@ -8,4 +8,6 @@ public interface BoardMapper {
     List<BoardDTO> getList();
     void insert(BoardDTO board);
     int getMaxBoardNum(String userId);
+
+    BoardDTO getDetail(Long boardNum);
 }

@@ -28,7 +28,8 @@ public class BoardServiceImpl implements BoardService {
 
     @Override
     public BoardDTO get(Long boardNum) {
-        return null;
+
+        return mapper.getDetail(boardNum);
     }
 
     @Override

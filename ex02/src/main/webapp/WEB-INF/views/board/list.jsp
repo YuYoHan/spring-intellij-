@@ -30,6 +30,9 @@
         th, td {
             text-align: center !important;
         }
+        tbody tr:hover {
+            background-color: rgba(255,255,255,0.3);
+        }
     </style>
 </head>
 <body class="is-preload">
@@ -81,7 +84,7 @@
                             <c:forEach items="${list}" var="board">
                                     <tr>
                                         <td>${board.boardNum}</td>
-                                        <td>${board.boardTitle}</td>
+                                        <td><a href="${board.boardNum}" class="get">${board.boardTitle}</a></td>
                                         <td>${board.userId}</td>
                                         <td>${board.regDate}
                                             <c:if test="${board.regDate != board.updateDate}">
@@ -121,6 +124,9 @@
         </div>
     </div>
 </div>
+<form name="pageForm" id="pageForm">
+    <input type="hidden">
+</form>
 
 <!-- Scripts -->
 <script src="/resources/assets/js/jquery.min.js"></script>
@@ -130,4 +136,22 @@
 <script src="/resources/assets/js/util.js"></script>
 <script src="/resources/assets/js/main.js"></script>
 </body>
+<script>
+    const pageForm = $("#pageForm");
+    // const pageForm = document.pageForm;
+    $(".get").on("click", function (e) {
+        // e(애벤트)의 기본 작동 막기
+        e.preventDefault();
+        let boardNum = $(this).attr("href");
+        //              <input type='hidden' name='boardNum' value='542780'
+        pageForm.append("<input type='hidden' name='boardNum' value='"+boardNum+"'>");
+
+        // jQuery 요소 일때는
+        pageForm.attr("action","/board/get")
+
+        // 바닐라 요소 일 때는
+        // pageForm.setAttribute("action", "/board/get")
+        pageForm.submit();
+    })
+</script>
 </html>
