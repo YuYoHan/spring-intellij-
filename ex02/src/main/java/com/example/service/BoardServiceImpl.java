@@ -1,6 +1,7 @@
 package com.example.service;
 
 import com.example.domain.BoardDTO;
+import com.example.domain.Criteria;
 import com.example.mapper.BoardMapper;
 import lombok.Setter;
 import lombok.extern.log4j.Log4j;
@@ -44,5 +45,10 @@ public class BoardServiceImpl implements BoardService {
     @Override
     public int getMaxBoardNum(String userId) {
         return mapper.getMaxBoardNum(userId);
+    }
+
+    @Override
+    public int count(Criteria cri) {
+        return mapper.getTotal(cri);
     }
 }

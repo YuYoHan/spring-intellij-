@@ -1,6 +1,7 @@
 package com.example.service;
 
 import com.example.domain.BoardDTO;
+import com.example.domain.Criteria;
 
 import java.util.List;
 
@@ -13,4 +14,6 @@ public interface BoardService {
     public boolean remove(Long boardNum);
 
     public int getMaxBoardNum(String userId);
+
+    int count(Criteria cri);
 }

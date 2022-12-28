@@ -1,6 +1,8 @@
 package com.example.controller;
 
 import com.example.domain.BoardDTO;
+import com.example.domain.Criteria;
+import com.example.domain.PageDTO;
 import com.example.service.BoardService;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,9 +21,9 @@ public class BoardController {
     private BoardService service;
 
     @GetMapping("/list")
-    public void list(Model model) {
+    public void list(Criteria cri, Model model) {
         model.addAttribute("list", service.getList());
-        model.addAttribute("pageMaker", )
+        model.addAttribute("pageMaker", new PageDTO(service.count(cri), cri));
     }
 
     @GetMapping("/regist")

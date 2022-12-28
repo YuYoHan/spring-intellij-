@@ -17,4 +17,7 @@
     <select id="getDatail" resultType="com.example.domain.BoardDTO">
         select * from spring_board where boardNum=#{boardNum}
     </select>
+    <select id="getTotal" resultType="_int">
+        select * from spring_board where boardNum > 0
+    </select>
 </mapper>

@@ -1,6 +1,7 @@
 package com.example.mapper;
 
 import com.example.domain.BoardDTO;
+import com.example.domain.Criteria;
 
 import java.util.List;
 
@@ -10,4 +11,6 @@ public interface BoardMapper {
     int getMaxBoardNum(String userId);
 
     BoardDTO getDetail(Long boardNum);
+
+    int getTotal(Criteria cri);
 }

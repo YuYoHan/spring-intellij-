@@ -12,6 +12,11 @@
     <list default="true" id="2620e52a-c433-4f8d-9acd-32c5cecc3b43" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/domain/PageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/domain/PageDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/mapper/BoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/mapper/BoardMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/src/main/resources/com/example/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/resources/com/example/mapper/BoardMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex02/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

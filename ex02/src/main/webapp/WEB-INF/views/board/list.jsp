@@ -117,14 +117,16 @@
                     <a href="#" class="button primary">검색</a>
                 </div>
             </form>
-            <div>
-                <code>&lt;</code>
-                <code>1</code>
-                <code>2</code>
-                <code>3</code>
-                <code>4</code>
-                <code>5</code>
-                <code>&gt;</code>
+            <div class="pagination center">
+               <c:if test="${pageMaker.prev}">
+                   <code>&lt;</code>
+               </c:if>
+                <c:forEach begin="${pageMaker.startPage}" end="${pageMaker.endPage}" var="i">
+                    <code>${i}</code>
+                </c:forEach>
+                <c:if test="${pageMaker.next}">
+                    <code>&gt;</code>
+                </c:if>
             </div>
         </div>
     </div>
