@@ -1,5 +1,6 @@
 package com.example.persistance;
 
+import com.example.domain.BoardVO;
 import com.example.mapper.BoardMapper;
 import lombok.Setter;
 import lombok.extern.log4j.Log4j;
@@ -20,5 +21,16 @@ public class BoardMapperTests {
     public void GetListTest() {
 //        log.info(mapper.getList());
         mapper.getList().forEach(board -> log.info(board));
+    }
+
+    @Test
+    public void  InsertTest() {
+        BoardVO board = new BoardVO();
+        board.setBoardTitle("새로 작성한 글");
+        board.setBoardContents("새로 작성한 내용");
+        board.setUserId("user00");
+
+        mapper.insert(board);
+        log.info(board);
     }
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.mapper.BoardMapper">
+    <select id="getList" resultType="com.example.domain.BoardVO">
+        <![CDATA[
+            select * from board where boardNum > 0
+    ]]>
+    </select>
+    <insert id="insert">
+        insert into board (boardTitle, boardContents, userId) VALUES (#{boardTitle},#{boardContents}, #{userId})
+    </insert>
+    <insert id="insertSelectKey">
+        <selectKey keyProperty="boardNum" order="BEFORE" resultType="long">
+            select boardNum from board
+        </selectKey>
+
+        insert into board (boardTitle, boardContents, userId) VALUES (#{boardTitle},#{boardContents}, #{userId})
+    </insert>
+</mapper>

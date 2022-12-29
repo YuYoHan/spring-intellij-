@@ -58,7 +58,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/study_/Spring/spring/ex02",
+    "last_opened_file_path": "C:/study_/Spring/spring/book_study/src/main/resources/com/example/mapper",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,6 +78,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\study_\Spring\spring\book_study\src\main\resources\com\example\mapper" />
       <recent name="C:\study_\Spring\spring\book_study\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -88,7 +89,7 @@
       <recent name="C:\study_\Spring\spring\book_study" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoardMapperTests.GetListTest">
+  <component name="RunManager" selected="JUnit.BoardMapperTests.InsertTest">
     <configuration name="BoardMapperTests.GetListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_study" />
       <extension name="coverage">
@@ -105,6 +106,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BoardMapperTests.InsertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.persistance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.persistance" />
+      <option name="MAIN_CLASS_NAME" value="com.example.persistance.BoardMapperTests" />
+      <option name="METHOD_NAME" value="InsertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataSourceTests.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_study" />
       <extension name="coverage">
@@ -115,22 +132,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.persistance" />
       <option name="MAIN_CLASS_NAME" value="com.example.persistance.DataSourceTests" />
-      <option name="METHOD_NAME" value="testConnection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDBCTests.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="book_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.persistance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.persistance" />
-      <option name="MAIN_CLASS_NAME" value="com.example.persistance.JDBCTests" />
       <option name="METHOD_NAME" value="testConnection" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -259,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BoardMapperTests.InsertTest" />
         <item itemvalue="JUnit.BoardMapperTests.GetListTest" />
         <item itemvalue="JUnit.TimeMapperTest.testGetTime" />
         <item itemvalue="JUnit.TimeMapperTest.testGetTime2" />
         <item itemvalue="JUnit.DataSourceTests.testConnection" />
-        <item itemvalue="JUnit.JDBCTests.testConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +299,7 @@
       <workItem from="1671715627782" duration="1858000" />
       <workItem from="1672018773347" duration="8832000" />
       <workItem from="1672102040968" duration="4930000" />
-      <workItem from="1672154082698" duration="8082000" />
+      <workItem from="1672154082698" duration="12334000" />
     </task>
     <servers />
   </component>
