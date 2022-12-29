@@ -6,7 +6,7 @@ import com.example.domain.Criteria;
 import java.util.List;
 
 public interface BoardMapper {
-    List<BoardDTO> getList();
+    List<BoardDTO> getList(Criteria cri);
     void insert(BoardDTO board);
     int getMaxBoardNum(String userId);
 

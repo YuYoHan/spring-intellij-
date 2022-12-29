@@ -1,6 +1,7 @@
 package com.example.service;
 
 import com.example.domain.BoardDTO;
+import com.example.domain.Criteria;
 import lombok.Setter;
 import lombok.extern.log4j.Log4j;
 import org.junit.Test;
@@ -19,7 +20,8 @@ public class BoardSertviceTest {
 
     @Test
     public void listTest() {
-        log.info(service.getList());
+        Criteria cri = new Criteria(1, 10);
+        log.info(service.getList(cri));
     }
 
     @Test

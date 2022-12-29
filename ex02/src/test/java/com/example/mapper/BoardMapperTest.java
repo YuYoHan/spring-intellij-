@@ -1,6 +1,7 @@
 package com.example.mapper;
 
 import com.example.domain.BoardDTO;
+import com.example.domain.Criteria;
 import lombok.Setter;
 import lombok.extern.log4j.Log4j;
 import org.junit.Test;
@@ -18,7 +19,8 @@ public class BoardMapperTest {
 
     @Test
     public void listTest() {
-        log.info(mapper.getList());
+        Criteria cri = new Criteria(1, 10);
+        log.info(mapper.getList(cri));
     }
 
     @Test

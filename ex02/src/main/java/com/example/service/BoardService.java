@@ -6,7 +6,7 @@ import com.example.domain.Criteria;
 import java.util.List;
 
 public interface BoardService {
-    public List<BoardDTO> getList();
+    public List<BoardDTO> getList(Criteria cri);
 
     public void regist(BoardDTO board);
     public BoardDTO get(Long boardNum);
@@ -15,5 +15,5 @@ public interface BoardService {
 
     public int getMaxBoardNum(String userId);
 
-    int count(Criteria cri);
+    public int count(Criteria cri);
 }

@@ -15,13 +15,13 @@ public class PageDTO {
     private int realEnd;
     private int total;
     private boolean prev, next;
-    private int pageNum;
+    private Criteria cri;
 
 
     public PageDTO(int total, Criteria cri) {
         int pageNum = cri.getPageNum();
+        this.cri = cri;
         this.total = total;
-        this.pageNum = pageNum;
 
         this.endPage = (int)Math.ceil(pageNum/10.0)*10;
         this.startPage = this.endPage - (cri.getAmount() -1);

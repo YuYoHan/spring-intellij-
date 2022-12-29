@@ -119,20 +119,28 @@
             </form>
             <div class="pagination center">
                <c:if test="${pageMaker.prev}">
-                   <code>&lt;</code>
+                   <a class="changePage" href="${pageMaker.startPage -1}"><code>&lt;</code></a>
                </c:if>
                 <c:forEach begin="${pageMaker.startPage}" end="${pageMaker.endPage}" var="i">
-                    <code>${i}</code>
+                    <c:choose>
+                        <c:when test="${i == pageMaker.cri.pageNum}">
+                            <code>${i}</code>
+                        </c:when>
+                        <c:otherwise>
+                            <a class="changePage" href="${i}"><code>${i}</code></a>
+                        </c:otherwise>
+                    </c:choose>
                 </c:forEach>
                 <c:if test="${pageMaker.next}">
-                    <code>&gt;</code>
+                    <a class="changePage" href="${pageMaker.endPage + 1}"><code>&gt;</code></a>
                 </c:if>
             </div>
         </div>
     </div>
 </div>
-<form name="pageForm" id="pageForm">
-    <input type="hidden">
+<form name="pageForm" id="pageForm" action="/board/list">
+    <input type="hidden" value="${pageMaker.cri.pageNum}" name="pageNum">
+    <input type="hidden" value="${pageMaker.cri.amount}" name="amount">
 </form>
 
 <!-- Scripts -->
@@ -158,6 +166,12 @@
 
         // 바닐라 요소 일 때는
         // pageForm.setAttribute("action", "/board/get")
+        pageForm.submit();
+    })
+    $(".changePage").on("click", function (e) {
+        e.preventDefault();
+        let pageNum = $(this).attr("href");
+        pageForm.find("input[name='pageNum']").val(pageNum);
         pageForm.submit();
     })
 </script>

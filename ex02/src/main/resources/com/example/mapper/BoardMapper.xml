@@ -8,13 +8,14 @@
     <select id="getList" resultType="com.example.domain.BoardDTO">
         <!-- 0 <boardNum하면 과로 처리하지만 CDATA안에 써주면 제대로 사용 가능하다-->
         <![CDATA[
-            select * from spring_board where 0<boardNum order by  boardNum desc limit  0,10
+            select * from spring_board where 0<boardNum order by  boardNum
+            desc limit #{startrow},#{amount}
         ]]>
     </select>
     <select id="getMaxBoardNum" resultType="_int">
         select max(boardNum) from spring_board where userId=#{userId}
     </select>
-    <select id="getDatail" resultType="com.example.domain.BoardDTO">
+    <select id="getDetail" resultType="com.example.domain.BoardDTO">
         select * from spring_board where boardNum=#{boardNum}
     </select>
     <select id="getTotal" resultType="_int">
