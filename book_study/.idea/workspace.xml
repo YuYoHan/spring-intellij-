@@ -9,20 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2620e52a-c433-4f8d-9acd-32c5cecc3b43" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../ex01_/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01_/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/domain/Criteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/domain/Criteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/domain/PageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/domain/PageDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/mapper/BoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/mapper/BoardMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/java/com/example/service/BoardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/resources/com/example/mapper/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/resources/com/example/mapper/BoardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/test/java/com/example/mapper/BoardMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/test/java/com/example/mapper/BoardMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02/src/test/java/com/example/service/BoardSertviceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/src/test/java/com/example/service/BoardSertviceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="2620e52a-c433-4f8d-9acd-32c5cecc3b43" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -101,7 +88,23 @@
       <recent name="C:\study_\Spring\spring\book_study" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat 서버.Tomcat 9.0.70">
+  <component name="RunManager" selected="JUnit.BoardMapperTests.GetListTest">
+    <configuration name="BoardMapperTests.GetListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.persistance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.persistance" />
+      <option name="MAIN_CLASS_NAME" value="com.example.persistance.BoardMapperTests" />
+      <option name="METHOD_NAME" value="GetListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataSourceTests.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_study" />
       <extension name="coverage">
@@ -129,22 +132,6 @@
       <option name="PACKAGE_NAME" value="com.example.persistance" />
       <option name="MAIN_CLASS_NAME" value="com.example.persistance.JDBCTests" />
       <option name="METHOD_NAME" value="testConnection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleTest.testExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="book_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.sample" />
-      <option name="MAIN_CLASS_NAME" value="com.example.sample.SampleTest" />
-      <option name="METHOD_NAME" value="testExist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -272,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BoardMapperTests.GetListTest" />
         <item itemvalue="JUnit.TimeMapperTest.testGetTime" />
         <item itemvalue="JUnit.TimeMapperTest.testGetTime2" />
         <item itemvalue="JUnit.DataSourceTests.testConnection" />
         <item itemvalue="JUnit.JDBCTests.testConnection" />
-        <item itemvalue="JUnit.SampleTest.testExist" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +298,7 @@
       <workItem from="1671715627782" duration="1858000" />
       <workItem from="1672018773347" duration="8832000" />
       <workItem from="1672102040968" duration="4930000" />
-      <workItem from="1672154082698" duration="5921000" />
+      <workItem from="1672154082698" duration="8082000" />
     </task>
     <servers />
   </component>
