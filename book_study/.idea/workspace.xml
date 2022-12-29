@@ -89,7 +89,23 @@
       <recent name="C:\study_\Spring\spring\book_study" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoardMapperTests.InsertTest">
+  <component name="RunManager" selected="JUnit.BoardMapperTests.GetListTest">
+    <configuration name="BoardMapperTests.DeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.persistance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.persistance" />
+      <option name="MAIN_CLASS_NAME" value="com.example.persistance.BoardMapperTests" />
+      <option name="METHOD_NAME" value="DeleteTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BoardMapperTests.GetListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_study" />
       <extension name="coverage">
@@ -101,6 +117,22 @@
       <option name="PACKAGE_NAME" value="com.example.persistance" />
       <option name="MAIN_CLASS_NAME" value="com.example.persistance.BoardMapperTests" />
       <option name="METHOD_NAME" value="GetListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardMapperTests.InsertSelectKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.persistance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.persistance" />
+      <option name="MAIN_CLASS_NAME" value="com.example.persistance.BoardMapperTests" />
+      <option name="METHOD_NAME" value="InsertSelectKey" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,7 +154,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataSourceTests.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardMapperTests.ReadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_study" />
       <extension name="coverage">
         <pattern>
@@ -131,40 +163,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.persistance" />
-      <option name="MAIN_CLASS_NAME" value="com.example.persistance.DataSourceTests" />
-      <option name="METHOD_NAME" value="testConnection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeMapperTest.testGetTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="book_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.persistance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.persistance" />
-      <option name="MAIN_CLASS_NAME" value="com.example.persistance.TimeMapperTest" />
-      <option name="METHOD_NAME" value="testGetTime" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeMapperTest.testGetTime2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="book_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.persistance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.persistance" />
-      <option name="MAIN_CLASS_NAME" value="com.example.persistance.TimeMapperTest" />
-      <option name="METHOD_NAME" value="testGetTime2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.persistance.BoardMapperTests" />
+      <option name="METHOD_NAME" value="ReadTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BoardMapperTests.InsertTest" />
         <item itemvalue="JUnit.BoardMapperTests.GetListTest" />
-        <item itemvalue="JUnit.TimeMapperTest.testGetTime" />
-        <item itemvalue="JUnit.TimeMapperTest.testGetTime2" />
-        <item itemvalue="JUnit.DataSourceTests.testConnection" />
+        <item itemvalue="JUnit.BoardMapperTests.DeleteTest" />
+        <item itemvalue="JUnit.BoardMapperTests.InsertTest" />
+        <item itemvalue="JUnit.BoardMapperTests.ReadTest" />
+        <item itemvalue="JUnit.BoardMapperTests.InsertSelectKey" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +299,7 @@
       <workItem from="1671715627782" duration="1858000" />
       <workItem from="1672018773347" duration="8832000" />
       <workItem from="1672102040968" duration="4930000" />
-      <workItem from="1672154082698" duration="12334000" />
+      <workItem from="1672154082698" duration="16607000" />
     </task>
     <servers />
   </component>
@@ -316,6 +316,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/persistance/BoardMapperTests.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/book_study$SampleTest_testExist.ic" NAME="SampleTest.testExist 커버리지 결과" MODIFIED="1671247108877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

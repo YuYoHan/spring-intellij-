@@ -18,13 +18,13 @@ public class BoardMapperTests {
     private BoardMapper mapper;
 
     @Test
-    public void GetListTest() {
+    public void getListTest() {
 //        log.info(mapper.getList());
         mapper.getList().forEach(board -> log.info(board));
     }
 
     @Test
-    public void  InsertTest() {
+    public void  insertTest() {
         BoardVO board = new BoardVO();
         board.setBoardTitle("새로 작성한 글");
         board.setBoardContents("새로 작성한 내용");
@@ -32,5 +32,41 @@ public class BoardMapperTests {
 
         mapper.insert(board);
         log.info(board);
+    }
+
+//    @Test
+//    public void InsertSelectKey() {
+//        BoardVO board = new BoardVO();
+//        board.setBoardTitle("새로 작성한 글 select key");
+//        board.setBoardContents("새로 작성한 내용 select key");
+//        board.setUserId("user00");
+//
+//        mapper.insertSelectKey(board);
+//        log.info(board);
+//    }
+
+    @Test
+    public void  readTest() {
+        BoardVO board = mapper.read(5L);
+        log.info(board);
+    }
+
+    @Test
+    public void  deleteTest() {
+        log.info("delete count : " + mapper.delete(3L));
+    }
+
+    @Test
+    public void updateTest() {
+        BoardVO board = new BoardVO();
+
+        // 실행전 존재하는 번호인지 확인할 것
+        board.setBoardNum(5L);
+        board.setBoardTitle("수정된 제목");
+        board.setBoardContents("수정된 내용");
+        board.setUserId("user01");
+
+        int count = mapper.update(board);
+        log.info("update count : " + count);
     }
 }

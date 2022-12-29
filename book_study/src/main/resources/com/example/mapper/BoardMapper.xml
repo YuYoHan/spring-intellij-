@@ -17,4 +17,18 @@
 
         insert into board (boardTitle, boardContents, userId) VALUES (#{boardTitle},#{boardContents}, #{userId})
     </insert>
+
+    <select id="read" resultType="com.example.domain.BoardVO">
+        select * from board where boardNum = #{boardNum}
+    </select>
+    <delete id="delete">
+        delete from board where boardNum = #{boardNum}
+    </delete>
+    <update id="update">
+        update board set
+                         boardTitle = #{boardTitle},
+                         boardContents = #{boardContents},
+                         userId = #{userId},
+                         updateDate = now() where boardNum = #{boardNum}
+    </update>
 </mapper>

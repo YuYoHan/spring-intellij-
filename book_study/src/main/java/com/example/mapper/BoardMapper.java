@@ -12,4 +12,10 @@ public interface BoardMapper {
     public void insert(BoardVO board);
 
     public void insertSelectKey(BoardVO board);
+
+    public BoardVO read(long boardNum);
+
+    public  int delete(long boardNum);
+
+    public int update(BoardVO board);
 }
