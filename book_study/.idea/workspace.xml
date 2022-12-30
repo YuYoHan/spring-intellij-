@@ -91,7 +91,7 @@
       <recent name="C:\study_\Spring\spring\book_study" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoardMapperTests.GetListTest">
+  <component name="RunManager" selected="JUnit.BoardServiceTests.testGetList">
     <configuration name="BoardMapperTests.DeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_study" />
       <extension name="coverage">
@@ -124,49 +124,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoardMapperTests.InsertSelectKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardServiceTests.existTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.persistance.*" />
+          <option name="PATTERN" value="com.example.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.persistance" />
-      <option name="MAIN_CLASS_NAME" value="com.example.persistance.BoardMapperTests" />
-      <option name="METHOD_NAME" value="InsertSelectKey" />
+      <option name="PACKAGE_NAME" value="com.example.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.service.BoardServiceTests" />
+      <option name="METHOD_NAME" value="existTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoardMapperTests.InsertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardServiceTests.resisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.persistance.*" />
+          <option name="PATTERN" value="com.example.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.persistance" />
-      <option name="MAIN_CLASS_NAME" value="com.example.persistance.BoardMapperTests" />
-      <option name="METHOD_NAME" value="InsertTest" />
+      <option name="PACKAGE_NAME" value="com.example.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.service.BoardServiceTests" />
+      <option name="METHOD_NAME" value="resisterTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoardMapperTests.ReadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardServiceTests.testGetList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.persistance.*" />
+          <option name="PATTERN" value="com.example.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.persistance" />
-      <option name="MAIN_CLASS_NAME" value="com.example.persistance.BoardMapperTests" />
-      <option name="METHOD_NAME" value="ReadTest" />
+      <option name="PACKAGE_NAME" value="com.example.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.service.BoardServiceTests" />
+      <option name="METHOD_NAME" value="testGetList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -262,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BoardServiceTests.testGetList" />
+        <item itemvalue="JUnit.BoardServiceTests.resisterTest" />
+        <item itemvalue="JUnit.BoardServiceTests.existTest" />
         <item itemvalue="JUnit.BoardMapperTests.GetListTest" />
         <item itemvalue="JUnit.BoardMapperTests.DeleteTest" />
-        <item itemvalue="JUnit.BoardMapperTests.InsertTest" />
-        <item itemvalue="JUnit.BoardMapperTests.ReadTest" />
-        <item itemvalue="JUnit.BoardMapperTests.InsertSelectKey" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +301,7 @@
       <workItem from="1671715627782" duration="1858000" />
       <workItem from="1672018773347" duration="8832000" />
       <workItem from="1672102040968" duration="4930000" />
-      <workItem from="1672154082698" duration="21484000" />
+      <workItem from="1672154082698" duration="24412000" />
     </task>
     <servers />
   </component>

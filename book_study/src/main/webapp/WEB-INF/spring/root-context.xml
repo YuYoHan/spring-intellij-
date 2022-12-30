@@ -30,6 +30,7 @@
     <mybatis-spring:scan base-package="com.example.mapper" />
     <context:component-scan base-package="com.example.controller" />
     <context:component-scan base-package="com.example.sample" />
+    <context:component-scan base-package="com.example.service" />
     <!-- Root Context: defines shared resources visible to all other web components -->
     <!-- 어디서 scan 하면 니가 주입할 객체들을 찾을 수 있는지 알려주는 것 -->
     <!-- Root Context: defines shared resources visible to all other web components -->
