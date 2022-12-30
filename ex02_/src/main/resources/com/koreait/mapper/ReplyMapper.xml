@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.koreait.mapper.ReplyMapper">
+	<insert id="insert">
+		insert into spring_reply (userid,replycontents,boardnum)
+		values(#{userid},#{replycontents},#{boardnum})
+	</insert>
+	<select id="getNum" resultType="_int">
+		select max(replynum) from spring_reply where userid=#{userid}	
+	</select>
+	<select id="getList" resultType="com.koreait.domain.ReplyDTO">
+		select * from spring_reply where boardnum = #{boardnum}
+		limit #{cri.startrow},#{cri.amount}
+	</select>
+	<select id="getTotal" resultType="_int">
+		select count(*) from spring_reply where boardnum=#{boardnum}
+	</select>
+	
+	<update id="update">
+		update spring_reply set replycontents=#{replycontents}, updatedate=now()
+		where replynum=#{replynum}
+	</update>	
+	
+	<delete id="delete">
+		delete from spring_reply where replynum=#{replynum}
+	</delete>
+</mapper>
+
+
+
+

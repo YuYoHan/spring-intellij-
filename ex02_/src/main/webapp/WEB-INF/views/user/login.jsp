@@ -13,21 +13,21 @@
 	.heading{
 		color:white;
 	}
-	.joinForm{
+	.loginForm{
 		width:50%;
 		margin:0 auto;
 	}
-	.joinForm h3{
+	.loginForm h3{
 		float:left;
 		width:30%;
 		color:white;
 		line-height:3.24rem;
 	}
-	.joinForm input[type=text], .joinForm input[type=password]{
+	.loginForm input[type=text], .loginForm input[type=password]{
 		float:right;
 		width:70%;
 	}
-	.joinForm>.col-12::after{
+	.loginForm>.col-12::after{
 		display:block;
 		content:" ";
 		height:50px;
@@ -53,9 +53,9 @@
 			<div id="main">
 				<div class="wrapper style1 special">
 					<div class="inner">
-						<h2 class="heading alt">회원가입</h2>
+						<h2 class="heading alt">로그인</h2>
 						<br>
-						<form class="joinForm" name="joinForm" id="joinForm" action="/user/join" method="post">
+						<form class="loginForm" name="loginForm" id="loginForm" action="/user/login" method="post">
 							<div class="col-12">
 								<h3>아이디</h3>
 								<input type="text" name="userid">
@@ -64,12 +64,8 @@
 								<h3>비밀번호</h3>
 								<input type="password" name="userpw">
 							</div>
-							<div class="col-12">
-								<h3>이름</h3>
-								<input type="text" name="username">
-							</div>
 							<div class="col-12" style="text-align: center">
-								<input type="submit" value="회원가입" class="primary">
+								<input type="submit" value="로그인" class="primary">
 							</div>
 						</form>
 					</div>
