@@ -91,23 +91,7 @@
       <recent name="C:\study_\Spring\spring\book_study" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoardServiceTests.testGetList">
-    <configuration name="BoardMapperTests.DeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="book_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.persistance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.persistance" />
-      <option name="MAIN_CLASS_NAME" value="com.example.persistance.BoardMapperTests" />
-      <option name="METHOD_NAME" value="DeleteTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BoardServiceTests.testGet">
     <configuration name="BoardMapperTests.GetListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book_study" />
       <extension name="coverage">
@@ -151,6 +135,22 @@
       <option name="PACKAGE_NAME" value="com.example.service" />
       <option name="MAIN_CLASS_NAME" value="com.example.service.BoardServiceTests" />
       <option name="METHOD_NAME" value="resisterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardServiceTests.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.service.BoardServiceTests" />
+      <option name="METHOD_NAME" value="testGet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -262,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BoardServiceTests.testGet" />
         <item itemvalue="JUnit.BoardServiceTests.testGetList" />
         <item itemvalue="JUnit.BoardServiceTests.resisterTest" />
         <item itemvalue="JUnit.BoardServiceTests.existTest" />
         <item itemvalue="JUnit.BoardMapperTests.GetListTest" />
-        <item itemvalue="JUnit.BoardMapperTests.DeleteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +301,7 @@
       <workItem from="1671715627782" duration="1858000" />
       <workItem from="1672018773347" duration="8832000" />
       <workItem from="1672102040968" duration="4930000" />
-      <workItem from="1672154082698" duration="24412000" />
+      <workItem from="1672154082698" duration="25768000" />
     </task>
     <servers />
   </component>
