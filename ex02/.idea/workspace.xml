@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a9a3a0-e170-419b-959b-6d9b74cfeb3b" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../book_study/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book_study/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_study/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex01_/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex01_/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/study_/Spring/spring/ex02_",
+    "last_opened_file_path": "C:/study_/Spring/spring/ex02",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -306,6 +303,7 @@
       <workItem from="1672137338019" duration="1035000" />
       <workItem from="1672154642950" duration="22555000" />
       <workItem from="1672289090617" duration="806000" />
+      <workItem from="1672331093923" duration="39000" />
     </task>
     <servers />
   </component>
