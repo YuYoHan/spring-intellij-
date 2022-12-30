@@ -10,18 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2620e52a-c433-4f8d-9acd-32c5cecc3b43" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/../ex02_/src/main/java/com/koreait/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02_/src/main/java/com/koreait/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02_/src/main/java/com/koreait/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02_/src/main/java/com/koreait/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02_/src/main/java/com/koreait/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02_/src/main/java/com/koreait/domain/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02_/src/main/java/com/koreait/domain/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02_/src/main/java/com/koreait/persistence/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02_/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02_/src/main/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02_/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02_/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02_/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02_/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02_/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02_/src/main/webapp/WEB-INF/views/user/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02_/src/main/webapp/WEB-INF/views/user/join.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02_/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02_/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ex02_/src/test/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02_/src/test/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02_/src/test/java/com/koreait/mapper/UserMapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02_/src/test/java/com/koreait/mapper/UserMapperTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +301,7 @@
       <workItem from="1671715627782" duration="1858000" />
       <workItem from="1672018773347" duration="8832000" />
       <workItem from="1672102040968" duration="4930000" />
-      <workItem from="1672154082698" duration="19665000" />
+      <workItem from="1672154082698" duration="21484000" />
     </task>
     <servers />
   </component>
